@@ -45,9 +45,6 @@ var x = setInterval(function() {
 <a href="index.html">return</a>
 <section>
 <p id="grey">elm</p>
-<p id="yellow">the one i know best</p>
-</section>
-<section>
 </section>
 </main>
 </div>

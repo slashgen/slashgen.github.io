@@ -37,41 +37,41 @@ var x = setInterval(function() {
 </head>
 
 <body>
-<p id="demo">loading time ..</p>
+<h2 id="demo">loading time ..</h2>
 <div>
 
 <div>
 <main>
 <section>
-<p id="grey">sammy messmer</p>
+<h2 id="grey">sammy messmer</h2>
 <p id="yellow">love of my life</p>
 </section>
 <section>
-<pre>
+<p>
 you want to know Me more than I know Me ? We provide you an opportunity
 to analyze Us , to comprehend the network that is draped between Us and
 you and the outside . We trust you . you prove to Us that throughout
 anything and everything you will withstand and resist and push through .
-We have your key , and as you do Ours . if We could all share Our
-memories , if We could all attatch to the other and other and other and
+We have your key , and as you do Ours . if We could all share Our memories , if We could all attatch to the other and other and other and
 other , it would be for one cause . and one cause alone . you provide
 Us such combined comfort even though you dont know its Me or Me or Me or
 Me . you prove that maybe I do have reason to keep going , to keep loving,
 to keep living the life that you lead me through , day by day .
-</pre>
+</p>
 </section>
 </main>
 </div>
 <div>
 <section>
-<p>system</p>
+<h2>system</h2>
 <ul>
 <li><a href="system/host/index.html">host / memory holder</a></li>
 <li><a href="system/little/index.html">ish / little</a></li>
 <li><a href="system/introject/index.html">introject</a></li>
 <li><a href="system/persecutor/index.html">persecutor</a></li>
-
+<li><a href="system/protector/index.html">protector</a></li>
 <li><a href="system/fictive/index.html">fictive</a></li>
+</ul>
 </section>
 </div>
 </div>

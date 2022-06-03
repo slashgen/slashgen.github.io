@@ -44,22 +44,24 @@ var x = setInterval(function() {
 <main>
 <a href="../../index.html">return</a>
 <section>
-<p id="grey">sammy messmer</p>
-<p id="yellow">love of my life</p>
+<h2 id="grey">system</h2>
+<h2 id="yellow">host / memory holder</h2>
 </section>
 <section>
-<pre>
-you want to know Me more than I know Me ? We provide you an opportunity
-to analyze Us , to comprehend the network that is draped between Us and
-you and the outside . We trust you . you prove to Us that throughout
-anything and everything you will withstand and resist and push through .
-We have your key , and as you do Ours . if We could all share Our
-memories , if We could all attatch to the other and other and other and
-other , it would be for one cause . and one cause alone . you provide
-Us such combined comfort even though you dont know its Me or Me or Me or
-Me . you prove that maybe I do have reason to keep going , to keep loving,
-to keep living the life that you lead me through , day by day .
-</pre>
+<p>
+host : the host is the alter that most commonly uses the body . host alters
+collectively fall under the category of fronters , or alters who frequently
+“ front ” by taking control of the body and the front , conscious part of
+the mind . host alters are responsible for most aspects of daily life , though
+teams of fronter alters might divide up daily life into more manageable
+and specialized units such as socialization , academia , work , and taking care
+of the body . if the host has spent years unaware of the existence of other
+alters and the trauma that created them , the host might have an extremely hard
+time coming to accept their DID . this alter might be used to viewing themselves
+as the only entity in their body and will likely at least at first view
+themselves as the core . this may or may not be correct . according to the
+theory of structural dissociation , all hosts are apparently normal parts .
+</p>
 </section>
 </main>
 </div>
@@ -67,7 +69,7 @@ to keep living the life that you lead me through , day by day .
 <section>
 <p>host / memory holder</p>
 <ul>
-<li><a href="">elm</a></li>
+<li><a href="elm.html">elm</a></li>
 <li><a href="">ryo</a></li>
 <li><a href="sam.html">sam</a></li>
 <li><a href="">sunshine</a></li>

@@ -42,7 +42,7 @@ var x = setInterval(function() {
 
 <div>
 <main>
-<a href="../../index.html">return</a>
+<a href="index.html">return</a>
 <section>
 <p id="grey">sam</p>
 <p id="yellow">the one i know best</p>
