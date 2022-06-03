@@ -1,0 +1,158 @@
+:root {
+    --b: #fff;
+    --t: #000;
+    --l: #f00;
+    --v: #f00;
+    --o: 1.0;
+    --f: invert(0);
+}
+
+* {
+    font-family: 'Iosevka Web', monospace;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.7;
+}
+
+body {
+    background: var(--b);
+    color: var(--t);
+    margin: 20px 36px;
+}
+
+div {
+    display: flex;
+}
+
+div div {
+    display: block;
+    flex: 50%;
+    padding: 10px 0 30px 0;
+}
+
+div div:first-child {
+    border-right: 1px solid #888;
+}
+
+section, figure {
+    margin: 30px;
+    max-width: 600px;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+img:hover, iframe:hover {
+    opacity: 1.0;
+}
+
+footer img {
+    width: 100%;
+    max-width: 30px;
+    filter: var(--f);
+    margin-top: -5px;
+}
+
+header img {
+    max-width: 130px;
+    margin: 0 10px;
+    filter: var(--f);
+}
+
+main img, iframe {
+    opacity: var(--o);
+}
+
+a {
+    color: #f00;
+	text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #f00;
+}
+
+a[target="_blank"]::after {
+    content: "\2B0F";
+}
+
+footer a[target="_blank"]::after {
+    content: "";
+}
+
+li::marker {
+    color: #888;
+}
+
+ul {
+    list-style-type: circle;
+}
+
+h2, b {
+    font-weight: 600;
+}
+
+blockquote {
+    padding: 0;
+    margin: 0 20px;
+    font-style: italic;
+}
+
+section div {
+    padding: 0;
+    margin: 0 20px;
+}
+
+::selection {
+    background: var(--t);
+    color: var(--b);
+}
+
+@media screen and (max-width: 780px) {
+    body {
+        margin: 10px 18px;
+    }
+
+    div {
+        display: block;
+    }
+
+    div div:first-child {
+        border: 0;
+    }
+
+    section, figure {
+        margin: 20px 16px;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --b: #000;
+        --t: ivory;
+        --l: khaki;
+        --v: darkkhaki;
+        --o: 0.7;
+        --f: invert(1);
+    }
+}
+
+#demo {
+	color: #0f0;
+	text-align: center;
+}
+#omg {
+	color: #00f;
+}
+#grey {
+	color: #bbb;
+}
+#yellow {
+	color: #0ff;
+}
