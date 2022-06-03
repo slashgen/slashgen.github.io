@@ -48,14 +48,14 @@ var x = setInterval(function() {
 <p id="yellow">the one i know best</p>
 </section>
 <section>
-<pre>
+<p>
 hello , my love . if youre reading this , i hope you know how willing i am
 to know every single part of you . there may not be a message like this for
 everyone , but as i come to know and love them as well as i know and love
 you , that will change . i hope one day i will be able to tell who i am
 talking to without them having to tell me themselves . i love you . i miss
 you . i want you . grabby hands <3
-</pre>
+</p>
 </section>
 </main>
 </div>
