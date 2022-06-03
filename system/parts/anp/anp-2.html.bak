@@ -1,0 +1,91 @@
+<html>
+<head>
+ <meta charset="utf-8">
+ <link rel="stylesheet" type="text/css" href="../../../home.css" media="screen" />
+  <title>/gen</title>
+ <script>
+// Set the date we're counting down to
+var countDownDate = new Date("Aug 18, 2022 00:00:00").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+  // Get today's date and time
+  var now = new Date().getTime();
+
+  // Find the distance between now and the count down date
+  var distance = countDownDate - now;
+
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+  // Display the result in the element with id="demo"
+  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s ";
+
+  // If the count down is finished, write some text
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "together at last <3";
+  }
+}, 1000);
+</script>
+
+</head>
+
+<body>
+<p id="demo">loading time ..</p>
+<div>
+
+<div>
+<main>
+<a href="../../index.html">return</a>
+<section>
+<p id="grey">parts</p>
+<p id="yellow">apparently normal parts</p>
+</section>
+<section>
+<ul>
+<li><a href="../index.html">apparently normal parts</a></li>
+<li><a href="ep.html">emotional parts</a></li>
+<li><a href="mixed.html">mixed parts</a></li>
+</ul>
+</section>
+</main>
+</div>
+<div>
+<section>
+<h2 id="omg">apparently normal parts continued</h2>
+<p>
+particularly desperate ANP might engage in self harm or use psychogenic
+substances in attempts to forcefully tether themselves to the present and
+prevent EP from intruding . it is likely that emotionally disconnected ANP
+will struggle to form meaningful relationships with others and will have
+a poor grasp of their own physical and emotional needs . however , the ANP
+has a need to appear high functioning and may find it easier to avoid all
+potentially triggering situations and actions , including those relating
+to attaching to and trusting others , and throw themselves into work or
+other non-reflective activities .
+</p>
+<p>
+for those with primary structural dissociation , the ANP is the main part
+of the personality and more closely represents the personality that existed
+before the trauma or stress triggered structural dissociation of the
+personality . the ANP is not exactly the individual who existed before
+because the presence of the above disorders by necessity involves a change
+of some sort in the individual experiencing them . when posttraumatic stress
+disorder (PTSD) is the result , the ANP will experience negative alterations
+in cognition and mood that may vary in severity according to the individuals
+general resilience and the amount and nature of the trauma experienced . as
+well , the ANP may suffer from the complications explained above .
+</p>
+<a href="anp.html"><</a>
+<a href="anp-3.html">></a>
+</section>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,86 @@
+<html>
+<head>
+ <meta charset="utf-8">
+ <link rel="stylesheet" type="text/css" href="../../../home.css" media="screen" />
+  <title>/gen</title>
+ <script>
+// Set the date we're counting down to
+var countDownDate = new Date("Aug 18, 2022 00:00:00").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+  // Get today's date and time
+  var now = new Date().getTime();
+
+  // Find the distance between now and the count down date
+  var distance = countDownDate - now;
+
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+  // Display the result in the element with id="demo"
+  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s ";
+
+  // If the count down is finished, write some text
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "together at last <3";
+  }
+}, 1000);
+</script>
+
+</head>
+
+<body>
+<p id="demo">loading time ..</p>
+<div>
+
+<div>
+<main>
+<a href="../../index.html">return</a>
+<section>
+<p id="grey">parts</p>
+<p id="yellow">apparently normal parts</p>
+</section>
+<section>
+<ul>
+<li><a href="../index.html">apparently normal parts</a></li>
+<li><a href="../ep.html">emotional parts</a></li>
+<li><a href="../mixed.html">mixed parts</a></li>
+</ul>
+</section>
+</main>
+</div>
+<div>
+<section>
+<h2 id="omg">apparently normal parts</h2>
+<p>
+apparently normal parts are the rational , present-oriented , and
+grounded parts of the individual that handle daily life or , in the case
+of dissociative identity disorder and so multiple ANP , aspects of
+daily life . the jobs of the ANP include social interaction and attachment ,
+taking care of others , work , play , exploration , learning , and taking
+care of physical needs .
+</p>
+<p>
+because ANP cannot properly integrate the traumatic materials contained by
+the EP , they are often highly phobic of and avoidant towards reminders
+of their trauma or further stress that could activate EP and so activate
+traumatic or symptomatic intrusions. these avoidant behaviors can involve
+amnesia , anesthesia ( insensitivity towards or loss of certain sensory
+input ) , or limiting the ANPs range of emotions or numbing their emotional
+intensity . these avoidant behaviors can drain mental energy and allow
+for depression , anxiety , or chronic feelings of hopelessness , shame ,
+guilt , or rage .
+</p>
+<a href="anp-2.html">></a>
+</section>
+</div>
+</div>
+</body>
+</html>

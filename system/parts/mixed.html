@@ -1,0 +1,87 @@
+<html>
+<head>
+ <meta charset="utf-8">
+ <link rel="stylesheet" type="text/css" href="../../home.css" media="screen" />
+  <title>/gen</title>
+ <script>
+// Set the date we're counting down to
+var countDownDate = new Date("Aug 18, 2022 00:00:00").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+  // Get today's date and time
+  var now = new Date().getTime();
+
+  // Find the distance between now and the count down date
+  var distance = countDownDate - now;
+
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+  // Display the result in the element with id="demo"
+  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s ";
+
+  // If the count down is finished, write some text
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "together at last <3";
+  }
+}, 1000);
+</script>
+
+</head>
+
+<body>
+<p id="demo">loading time ..</p>
+<div>
+
+<div>
+<main>
+<a href="../../index.html">return</a>
+<section>
+<p id="grey">parts</p>
+<p id="yellow">mixed parts</p>
+</section>
+<section>
+<ul>
+<li><a href="anp/anp.html">apparently normal parts</a></li>
+<li><a href="ep.html">emotional parts</a></li>
+<li><a href="index.html">mixed parts</a></li>
+</ul>
+</section>
+</main>
+</div>
+<div>
+<section>
+<h2 id="omg">mixed apparently normal and emotional parts</h2>
+<p>
+in some cases of dissociative identity disorder , some alters may be neither
+apparently normal nor emotional parts but a combination of both . this phenomenon
+is often associated with severe childhood trauma and can indicate that the
+trauma began at a very young age or that the trauma bled over into daily life
+in such a way as to prevent the normal differentiation between apparently
+normal and emotional parts . parts may be more like either apparently normal
+parts or emotional parts , and some parts may still fit into the neat dichotomy
+entirely , but such systems might also have more blended parts . for example ,
+there might be traumatic identity states who are mature , are capable of remaining
+rational and grounded , and have full access to their memories of the traumas
+that they experienced or have neutral identity states who struggle with intense
+emotions , both negative and positive PTSD symptoms , and have some degree of
+memory for what the traumatic identity states experienced ( even if this
+knowledge of their history is inconsistent or mostly intellectual instead of
+emotional ) . this could even be thought of as a type of quaternary structural
+dissociation in which individual parts have their own internal ANP and EP states .
+systems with these less defined boundaries are thought to struggle more than more
+traditional DID systems because their ANP are less able to separate themselves
+from the trauma and so present as normal .
+</p>
+</section>
+</div>
+</div>
+</body>
+</html>

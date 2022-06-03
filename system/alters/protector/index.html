@@ -1,0 +1,84 @@
+<html>
+<head>
+ <meta charset="utf-8">
+ <link rel="stylesheet" type="text/css" href="../../../home.css" media="screen" />
+ 
+ <script>
+// Set the date we're counting down to
+var countDownDate = new Date("Aug 18, 2022 00:00:00").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+  // Get today's date and time
+  var now = new Date().getTime();
+
+  // Find the distance between now and the count down date
+  var distance = countDownDate - now;
+
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+  // Display the result in the element with id="demo"
+  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s ";
+
+  // If the count down is finished, write some text
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "together at last <3";
+  }
+}, 1000);
+</script>
+
+</head>
+
+<body>
+<p id="demo">loading time ..</p>
+<div>
+
+<div>
+<main>
+<a href="../../../index.html">return</a>
+<section>
+<p id="grey">system</p>
+<p id="yellow">protector</p>
+</section>
+<section>
+<p>
+protectors are alters that protect the body , system , host , core ,
+or other specific alters or groups of alters . physical protectors
+might take or try to prevent physical abuse or become aggressive in
+an attempt to defend against physical abuse . verbal protectors might
+take verbal abuse or lash back verbally in order to counter verbal
+abuse . emotional protectors might take emotional abuse or comfort
+other alters to soften the effects of emotional abuse . sexual
+protectors might take sexual abuse or attempt to instigate sexual abuse
+in an attempt to feel more in control of the situation . caretaker
+alters are a unique type of protector that is focused specifically on
+taking care of younger , weaker , or more vulnerable alters or external
+children . <a href="../persecutor/index.html">persecutors</a> are another
+specific type of protector that are often not seen as such but that
+protect by harming the system themselves in order to avoid outside harm .
+</p>
+</section>
+</main>
+</div>
+<div>
+<section>
+<p>protector</p>
+<ul>
+<li><a href="">kit</a></li>
+<li><a href="">star</a></li>
+<li><a href="">vine</a></li>
+<li><a href="">707</a></li>
+<li><a href="">bunny</a></li>
+</ul>
+</section>
+</div>
+</div>
+</body>
+</html>

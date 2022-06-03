@@ -1,0 +1,81 @@
+<html>
+<head>
+ <meta charset="utf-8">
+ <link rel="stylesheet" type="text/css" href="../../../home.css" media="screen" />
+  <title>/gen</title>
+ <script>
+// Set the date we're counting down to
+var countDownDate = new Date("Aug 18, 2022 00:00:00").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+  // Get today's date and time
+  var now = new Date().getTime();
+
+  // Find the distance between now and the count down date
+  var distance = countDownDate - now;
+
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+  // Display the result in the element with id="demo"
+  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s ";
+
+  // If the count down is finished, write some text
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "together at last <3";
+  }
+}, 1000);
+</script>
+
+</head>
+
+<body>
+<p id="demo">loading time ..</p>
+<div>
+
+<div>
+<main>
+<a href="../../index.html">return</a>
+<section>
+<p id="grey">system</p>
+<p id="yellow">persecutor</p>
+</section>
+<section>
+<p>
+persecutors are alters that purposefully harm the body , system , host ,
+core , or other alters , sabotage the systems goals or healing , or work
+to assist the systems abusers . persecutors might hold self hatred or
+provide an outlet for internalized abusive and negative messages . they
+might believe that hurting the system or other alters is the only way to
+control them or teach them how to behave and so prevent further and more
+extreme abuse from outside abusers . they might be reenacting abuse or
+trying to ensure that future abuse isnt more harmful due to being preceded
+by a period of relatively little abuse . some persecutor alters are
+introjects of abusers and may or may not understand that they are not
+actually the abuser themselves .
+</p>
+</section>
+</main>
+</div>
+<div>
+<section>
+<p>persecutor</p>
+<ul>
+<li><a href="">five</a></li>
+<li><a href="">jj</a></li>
+<li><a href="">nine</a></li>
+<li><a href="">yuri</a></li>
+<li><a href="">mary</a></li>
+</ul>
+</section>
+</div>
+</div>
+</body>
+</html>

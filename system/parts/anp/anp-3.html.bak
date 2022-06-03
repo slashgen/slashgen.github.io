@@ -1,0 +1,95 @@
+<html>
+<head>
+ <meta charset="utf-8">
+ <link rel="stylesheet" type="text/css" href="../../../home.css" media="screen" />
+  <title>/gen</title>
+ <script>
+// Set the date we're counting down to
+var countDownDate = new Date("Aug 18, 2022 00:00:00").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+  // Get today's date and time
+  var now = new Date().getTime();
+
+  // Find the distance between now and the count down date
+  var distance = countDownDate - now;
+
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+  // Display the result in the element with id="demo"
+  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s ";
+
+  // If the count down is finished, write some text
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "together at last <3";
+  }
+}, 1000);
+</script>
+
+</head>
+
+<body>
+<p id="demo">loading time ..</p>
+<div>
+
+<div>
+<main>
+<a href="../../index.html">return</a>
+<section>
+<p id="grey">parts</p>
+<p id="yellow">apparently normal parts</p>
+</section>
+<section>
+<ul>
+<li><a href="../index.html">apparently normal parts</a></li>
+<li><a href="ep.html">emotional parts</a></li>
+<li><a href="mixed.html">mixed parts</a></li>
+</ul>
+</section>
+</main>
+</div>
+<div>
+<section>
+<h2 id="omg">apparently normal parts continued</h2>
+<p>
+for those with secondary structural dissociation , the ANP may represent less
+of the entire personality or be less similar to the pre-trauma personality
+than it is in primary structural dissociation . for those with borderline
+personality disorder (BPD) , the ANP might contain comparatively little due to
+avoidance of the numerous EP and so struggle with feelings of chronic
+emptiness , loneliness , and boredom and with identity confusion and a need
+for others to help them know who to be . for those with other specified
+dissociative disorder (OSDD-1) , the more developed EP may mean that less
+is available for or more must be avoided by the ANP .  in contrast , those
+with complex-posttraumatic stress disorder experience their ANP and EP in a
+very similar manner to those with PTSD . the ANP of individuals with secondary
+structural dissociation tend to have more maladaptive coping mechanisms than
+do those with primary structural dissociation .
+</p>
+<p>
+for those with tertiary structural dissociation , there are multiple ANP
+that each handle different aspects of daily life . for example , one ANP
+might be the host and handle school , relationships , and work . another
+ANP might be better at relationships and so assist the first in that regard
+either knowingly or unknowingly ( some believe that ANP always lose time
+when they switch with each other and are not aware that they are not
+each other ; for some with DID , this may be true ) while another might
+help with a specific subject matter in school or aspect of work . another
+ANP might handle the systems family of origin or help to take care of
+dependent children . individuals with DID do not have a single ANP that
+accurately reflects who they would be as a fully integrated personality .
+</p>
+<a href="anp-2.html"><</a>
+</section>
+</div>
+</div>
+</body>
+</html>

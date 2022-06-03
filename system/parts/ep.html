@@ -1,0 +1,74 @@
+<html>
+<head>
+ <meta charset="utf-8">
+ <link rel="stylesheet" type="text/css" href="../../home.css" media="screen" />
+  <title>/gen</title>
+ <script>
+// Set the date we're counting down to
+var countDownDate = new Date("Aug 18, 2022 00:00:00").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+  // Get today's date and time
+  var now = new Date().getTime();
+
+  // Find the distance between now and the count down date
+  var distance = countDownDate - now;
+
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+  // Display the result in the element with id="demo"
+  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s ";
+
+  // If the count down is finished, write some text
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "together at last <3";
+  }
+}, 1000);
+</script>
+
+</head>
+
+<body>
+<p id="demo">loading time ..</p>
+<div>
+
+<div>
+<main>
+<a href="../../index.html">return</a>
+<section>
+<p id="grey">parts</p>
+<p id="yellow">emotional parts</p>
+</section>
+<section>
+<ul>
+<li><a href="anp/anp.html">apparently normal parts</a></li>
+<li><a href="index.html">emotional parts</a></li>
+<li><a href="mixed.html">mixed parts</a></li>
+</ul>
+</section>
+</main>
+</div>
+<div>
+<section>
+<h2 id="omg">emotional parts</h2>
+<p>
+emotional parts are the parts of the personality that represent the
+dissociation or that contain the traumatic materials (memories of the trauma ,
+internalized beliefs and perceptions , learned responses , etc ) .
+emotional parts are often drawn forth by reminders of the trauma and may not
+experience much of everyday life . because of this , they might be far
+less developed than ANP .
+</p>
+</section>
+</div>
+</div>
+</body>
+</html>
