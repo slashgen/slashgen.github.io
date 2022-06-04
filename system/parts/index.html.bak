@@ -49,7 +49,7 @@ var x = setInterval(function() {
 </section>
 <section>
 <ul>
-<li><a href="anp.html">apparently normal parts</a></li>
+<li><a href="anp/anp.html">apparently normal parts</a></li>
 <li><a href="ep.html">emotional parts</a></li>
 <li><a href="mixed.html">mixed parts</a></li>
 </ul>

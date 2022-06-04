@@ -1,7 +1,7 @@
 <html>
 <head>
  <meta charset="utf-8">
- <link rel="stylesheet" type="text/css" href="../../home.css" media="screen" />
+ <link rel="stylesheet" type="text/css" href="../../../home.css" media="screen" />
   <title>/gen</title>
  <script>
 // Set the date we're counting down to
@@ -49,9 +49,9 @@ var x = setInterval(function() {
 </section>
 <section>
 <ul>
-<li><a href="anp.html">apparently normal parts</a></li>
-<li><a href="index.html">emotional parts</a></li>
-<li><a href="mixed.html">mixed parts</a></li>
+<li><a href="../anp/anp.html">apparently normal parts</a></li>
+<li><a href="../index.html">emotional parts</a></li>
+<li><a href="../mixed/mixed.html">mixed parts</a></li>
 </ul>
 </section>
 </main>
@@ -67,6 +67,20 @@ emotional parts are often drawn forth by reminders of the trauma and may not
 experience much of everyday life . because of this , they might be far
 less developed than ANP .
 </p>
+<p>
+for those with primary structural dissociation , the EP may be limited to
+direct results of the trauma . for example , EP are experienced as various
+aspects of dissociative flashbacks and are often unaware of the present
+when active . they might be experienced as emotions such as fear , anger ,
+disgust , self hatred , or guilt . they might engage in defensive , offensive ,
+or trauma-related actions such as trying to fight , run , or submit in the
+face of real or perceived threats or might constantly reenact elements of
+the trauma such as engaging in compulsive sexual behavior as a response
+to sexual trauma . often , these elements will be combined in various ways
+to result in the survivor as an EP feeling completely overwhelmed and
+disconnected from the individuals objective reality .
+</p>
+<a href="ep-2.html">></a>
 </section>
 </div>
 </div>
