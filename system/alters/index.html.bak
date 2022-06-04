@@ -1,0 +1,89 @@
+<html>
+<head>
+ <meta charset="utf-8">
+ <link rel="stylesheet" type="text/css" href="../../home.css" media="screen" />
+ <title>/gen</title>
+ <script>
+// Set the date we're counting down to
+var countDownDate = new Date("Aug 18, 2022 00:00:00").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+  // Get today's date and time
+  var now = new Date().getTime();
+
+  // Find the distance between now and the count down date
+  var distance = countDownDate - now;
+
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+  // Display the result in the element with id="demo"
+  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s ";
+
+  // If the count down is finished, write some text
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "together at last <3";
+  }
+}, 1000);
+</script>
+
+</head>
+
+<body>
+<p id="demo">loading time ..</p>
+<div>
+
+<div>
+<main>
+<a href="index.html">return</a>
+<section>
+<h2 id="grey">alters</h2>
+<p>
+an alter is a dissociated self state that may be associated with either dissociative identity
+disorder ( DID ) or other specified dissociative disorder subtype 1 ( OSDD-1 ) . in cases of
+DID , most if not all alters can take recurrent executive control of the body in which they
+reside . alters each have their own perception of self as a unique individual or entity and
+do not view themselves as only an aspect of a complete person . externally , alters can display
+different degrees of emotional expressiveness , behave in different ways , and have different
+skills and abilities related to sensory-motor functioning . they have different thoughts ,
+perceptions , and memories relating to themselves and to the world around them . they may
+perceive themselves as having an age , gender , sexuality , appearance , source , or even species
+that may or may not match that of the systems actual body , and they may or may not be aware
+of these discrepancies . ( some alters may see what they expect to see when they look into
+mirrors and are highly distressed to realize that the body that they are in does not match
+their internal perception of how they should look . ) often , alters have their own wants ,
+needs , desires , and opinions . they may have psychological disorders and physiological
+reactions that are unique to them or experience the bodys psychological and physiological disorders
+in different ways or to different degrees than do other alters in the same body .
+</p>
+<p>
+alters are also referred to as parts , alternate personalities , personalities , fragments , " headmates " ,
+internal family members ( " sisters " , " brothers " , " cousins " , etc ) , or self states . collectively ,
+all of the alters in one body are known as a system .
+</p>
+</section>
+</main>
+</div>
+<div>
+<section>
+<h2>for more information , see:</h2>
+<ul>
+<li>functions</li>
+<li>alter ages</li>
+<li>non-human alters</li>
+<li>cores</li>
+<li>systems and subsystems</li>
+<li>internal worlds</li>
+</ul>
+</section>
+</div>
+</div>
+</body>
+</html>
